@@ -1,5 +1,5 @@
 const baseURL =
-  "https://api.weatherapi.com/v1/current.json?key=58ae7813f1b2419b8b0123838222406";
+  "https://api.weatherapi.com/v1/current.json?key=48971d068a224dd0bc5200641241312";
 
 export const getWeatherDataForCity = async (city) => {
   const response = await fetch(`${baseURL}&q=${city}&aqi=yes`);
